@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_y0jYMOABEeuGNpyf4KDnZA" name="Diagrama de Adjunción y Correspondencia" author="alex_" bonitaVersion="7.12.1" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_yW4ygOAGEeuGNpyf4KDnZA" name="Correspondencia">
+    <elements xmi:type="process:Pool" xmi:id="_yW4ygOAGEeuGNpyf4KDnZA" documentation="Creacion de Resolución de Adjudicación" name="Correspondencia">
       <elements xmi:type="process:Lane" xmi:id="_wvnD8OAMEeuGNpyf4KDnZA" name="Departamento de Correspondencia" actor="_nxtU0OAMEeuGNpyf4KDnZA">
         <elements xmi:type="process:Task" xmi:id="_1Tz2oOAGEeuGNpyf4KDnZA" name="Incluir en Bandeja" outgoing="_D8p9EOAMEeuGNpyf4KDnZA" incoming="_DUT88OAHEeuGNpyf4KDnZA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_1Tz2ouAGEeuGNpyf4KDnZA" name="" content="" returnTypeFixed="true"/>
@@ -66,7 +66,7 @@
         <value xmi:type="expression:Expression" xmi:id="_yW5ZnuAGEeuGNpyf4KDnZA" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
-    <elements xmi:type="process:Pool" xmi:id="_y0jYMeABEeuGNpyf4KDnZA" name="Adjudicación de Compras">
+    <elements xmi:type="process:Pool" xmi:id="_y0jYMeABEeuGNpyf4KDnZA" documentation="Proceso de Creación de Resolución de Adjunción" name="Adjudicación de Compras">
       <elements xmi:type="process:Lane" xmi:id="_y0jYMuABEeuGNpyf4KDnZA" name="Departamento de Adjunción" actor="_y0jYS-ABEeuGNpyf4KDnZA">
         <elements xmi:type="process:StartEvent" xmi:id="_y0jYM-ABEeuGNpyf4KDnZA" name="Inicio" outgoing="_y0jYSOABEeuGNpyf4KDnZA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_y0jYNOABEeuGNpyf4KDnZA" name="" content="" returnTypeFixed="true"/>
