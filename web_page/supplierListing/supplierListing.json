@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.9.24",
   "id" : "supplierListing",
   "name" : "supplierListing",
-  "lastUpdate" : 1620031983642,
+  "lastUpdate" : 1625899383457,
   "rows" : [
     [
       {
@@ -22,7 +22,7 @@
           },
           "text" : {
             "type" : "interpolation",
-            "value" : "Suppliers"
+            "value" : "Proveedor"
           },
           "level" : {
             "type" : "constant",
@@ -79,7 +79,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Select a supplier to view more details</b>"
+                  "value" : "<b>Seleccione un proveedor para mas detalle</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -126,7 +126,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "+ Create supplier"
+                  "value" : "+ Crear proveedor"
                 },
                 "targetUrl" : {
                   "type" : "expression",
@@ -193,8 +193,8 @@
                 "headers" : {
                   "type" : "constant",
                   "value" : [
-                    "Name",
-                    "Description"
+                    "Nombre",
+                    "Descripcion"
                   ]
                 },
                 "content" : {
@@ -276,7 +276,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Supplier details"
+                  "value" : "Detalle del proveedor"
                 },
                 "level" : {
                   "type" : "constant",
@@ -359,7 +359,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Name</b>"
+                        "value" : "<b>Nombre</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -455,7 +455,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Description</b>"
+                        "value" : "<b>Descripcion</b>"
                       },
                       "alignment" : {
                         "type" : "constant",

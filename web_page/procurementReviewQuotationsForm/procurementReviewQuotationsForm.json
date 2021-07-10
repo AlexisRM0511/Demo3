@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.9.24",
   "id" : "procurementReviewQuotationsForm",
   "name" : "procurementReviewQuotationsForm",
-  "lastUpdate" : 1620031983610,
+  "lastUpdate" : 1625899776209,
   "rows" : [
     [
       {
@@ -72,7 +72,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Review quotations & select supplier"
+                  "value" : "Revisar cotizaciones y seleccionar proveedor"
                 },
                 "level" : {
                   "type" : "constant",
@@ -105,7 +105,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Request details"
+                  "value" : "Detalles de la solicitud"
                 },
                 "level" : {
                   "type" : "constant",
@@ -138,7 +138,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Summary</b>"
+                  "value" : "<b>Resumen</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -234,7 +234,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Description</b>"
+                  "value" : "<b>Descripcion</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -330,7 +330,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Creation date</b>"
+                  "value" : "<b>Fecha de creacion</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -424,7 +424,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Created by</b>"
+                  "value" : "<b>Creado por</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -520,7 +520,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Quotations"
+                  "value" : "Cotizaciones"
                 },
                 "level" : {
                   "type" : "constant",
@@ -553,7 +553,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Select a quotation for this procurement request.</b>"
+                  "value" : "<b>Seleccione una cotización para esta solicitud de compra..</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -603,10 +603,10 @@
                 "headers" : {
                   "type" : "constant",
                   "value" : [
-                    "Supplier",
-                    "Accepted",
-                    "Proposed price",
-                    "Comments"
+                    "Proveedor",
+                    "Aceptado",
+                    "Precio propuesto",
+                    "Comentario"
                   ]
                 },
                 "availableValues" : {
@@ -673,7 +673,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "Abort procurement request"
+                  "value" : "Anular solicitud de adquisición"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -760,7 +760,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "Accept selected quotation"
+                  "value" : "Aceptar cotización seleccionada"
                 },
                 "alignment" : {
                   "type" : "constant",

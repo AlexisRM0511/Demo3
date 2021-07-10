@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.9.24",
   "id" : "procurementCompleteQuotationForm",
   "name" : "procurementCompleteQuotationForm",
-  "lastUpdate" : 1620031983454,
+  "lastUpdate" : 1625900471230,
   "rows" : [
     [
       {
@@ -72,7 +72,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Complete quotation"
+                  "value" : "Cotización completa"
                 },
                 "level" : {
                   "type" : "constant",
@@ -105,7 +105,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Request details"
+                  "value" : "Detalles de la peticion"
                 },
                 "level" : {
                   "type" : "constant",
@@ -138,7 +138,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Summary</b>"
+                  "value" : "<b>Resumen</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -234,7 +234,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Description</b>"
+                  "value" : "<b>Descripcion</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -330,7 +330,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Creation date</b>"
+                  "value" : "<b>Fecha de creacion</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -424,7 +424,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Created by</b>"
+                  "value" : "<b>Creado por</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -520,7 +520,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Your quotation on behalf of {{quotation.supplier.name}}"
+                  "value" : "Su cotización en nombre de {{quotation.supplier.name}}"
                 },
                 "level" : {
                   "type" : "constant",
@@ -553,7 +553,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "<b>Provide a quotation for this procurement request.</b>"
+                  "value" : "<b>Proporcione una cotización para esta solicitud de adquisición.</b>"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -626,7 +626,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "Proposed price"
+                  "value" : "Precio propuesto"
                 },
                 "labelPosition" : {
                   "type" : "constant",
@@ -653,6 +653,10 @@
                 },
                 "max" : {
                   "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
                 }
               },
               "reference" : "65f25e03-fc6e-43e0-80ea-1936a83b7796",
@@ -697,7 +701,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "Comments"
+                  "value" : "Comentarios"
                 },
                 "labelPosition" : {
                   "type" : "constant",
@@ -738,7 +742,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "I don't want to answer"
+                  "value" : "No quiero contestar"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -825,7 +829,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "Create quotation"
+                  "value" : "Crear cotización"
                 },
                 "alignment" : {
                   "type" : "constant",

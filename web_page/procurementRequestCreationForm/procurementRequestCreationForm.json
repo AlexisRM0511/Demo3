@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.9.24",
   "id" : "procurementRequestCreationForm",
   "name" : "procurementRequestCreationForm",
-  "lastUpdate" : 1620031983507,
+  "lastUpdate" : 1625899987120,
   "rows" : [
     [
       {
@@ -94,7 +94,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Specify need & identify suitable suppliers"
+                    "value" : "Especifique la necesidad e identifique los proveedores adecuados"
                   },
                   "level" : {
                     "type" : "constant",
@@ -158,7 +158,7 @@
                       },
                       "title" : {
                         "type" : "interpolation",
-                        "value" : "Need"
+                        "value" : "Necesidad"
                       }
                     },
                     "reference" : "d01f3846-2b97-4b49-b65c-77db0d704e63",
@@ -386,7 +386,7 @@
                       },
                       "title" : {
                         "type" : "interpolation",
-                        "value" : "Suitable suppliers"
+                        "value" : "Proveedores adecuados"
                       }
                     },
                     "reference" : "26fdcd6a-de60-41c1-8954-34b5f212f664",
@@ -428,7 +428,7 @@
                               },
                               "text" : {
                                 "type" : "interpolation",
-                                "value" : "<br/><b>Indentify a list of suitable suppliers.</b>"
+                                "value" : "<br/><b>Identifique una lista de proveedores adecuados</b>"
                               },
                               "alignment" : {
                                 "type" : "constant",
@@ -501,7 +501,7 @@
                                     },
                                     "text" : {
                                       "type" : "interpolation",
-                                      "value" : "All suppliers"
+                                      "value" : "Todos los proveedores"
                                     },
                                     "level" : {
                                       "type" : "constant",
@@ -535,8 +535,8 @@
                                     "headers" : {
                                       "type" : "constant",
                                       "value" : [
-                                        "Name",
-                                        "Description"
+                                        "Nombre",
+                                        "Descripcion"
                                       ]
                                     },
                                     "availableValues" : {
@@ -661,7 +661,7 @@
                                     },
                                     "text" : {
                                       "type" : "interpolation",
-                                      "value" : "Suitable suppliers"
+                                      "value" : "Proveedores adecuados"
                                     },
                                     "level" : {
                                       "type" : "constant",
@@ -695,8 +695,8 @@
                                     "headers" : {
                                       "type" : "constant",
                                       "value" : [
-                                        "Name",
-                                        "Description"
+                                        "Nombre",
+                                        "Descripcion"
                                       ]
                                     },
                                     "content" : {
@@ -815,7 +815,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Send request"
+                    "value" : "Enviar petición"
                   },
                   "alignment" : {
                     "type" : "constant",

@@ -3,7 +3,7 @@
   "previousArtifactVersion" : "1.9.24",
   "id" : "procurementRequestListing",
   "name" : "procurementRequestListing",
-  "lastUpdate" : 1620031983548,
+  "lastUpdate" : 1625899380899,
   "rows" : [
     [
       {
@@ -22,7 +22,7 @@
           },
           "text" : {
             "type" : "interpolation",
-            "value" : "Procurement requests"
+            "value" : "Solicitudes de adquisiciones"
           },
           "level" : {
             "type" : "constant",
@@ -55,7 +55,7 @@
           },
           "text" : {
             "type" : "interpolation",
-            "value" : "<b>Select a request to view more details</b>"
+            "value" : "<b>Seleccione una solicitud para ver más detalles</b>"
           },
           "alignment" : {
             "type" : "constant",
@@ -102,7 +102,7 @@
           },
           "text" : {
             "type" : "interpolation",
-            "value" : "+ New Request"
+            "value" : "+ Nueva solicitud"
           },
           "targetUrl" : {
             "type" : "expression",
@@ -115,6 +115,35 @@
           "buttonStyle" : {
             "type" : "constant",
             "value" : "primary"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "URL"
+          },
+          "pageToken" : {
+            "type" : "constant"
+          },
+          "processName" : {
+            "type" : "constant"
+          },
+          "processVersion" : {
+            "type" : "constant"
+          },
+          "taskId" : {
+            "type" : "constant"
+          },
+          "caseId" : {
+            "type" : "constant"
+          },
+          "target" : {
+            "type" : "constant",
+            "value" : "_self"
+          },
+          "appToken" : {
+            "type" : "constant"
+          },
+          "urlParams" : {
+            "type" : "constant"
           }
         },
         "reference" : "3317f307-2aab-45b1-adb7-609718ebd125",
@@ -140,12 +169,12 @@
           "headers" : {
             "type" : "constant",
             "value" : [
-              "Summary",
-              "Creation date",
-              "Created by",
-              "Status",
-              "Completion date",
-              "Selected supplier"
+              "Resumen",
+              "Fecha de creacion",
+              "Creado por",
+              "Estado",
+              "Fecha de completado",
+              "Proveedor seleccionado"
             ]
           },
           "content" : {
@@ -279,7 +308,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Request details"
+                  "value" : "Pedir detalles"
                 },
                 "level" : {
                   "type" : "constant",
@@ -362,7 +391,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Summary</b>"
+                        "value" : "<b>Resumen</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -456,7 +485,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Status</b>"
+                        "value" : "<b>Estado</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -552,7 +581,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Description</b>"
+                        "value" : "<b>Descripcion</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -648,7 +677,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Creation date</b>"
+                        "value" : "<b>Fecha de creacion</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -742,7 +771,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Created by</b>"
+                        "value" : "<b>Creado por</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -838,7 +867,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Completion date</b>"
+                        "value" : "<b>Fecha de completado</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -932,7 +961,7 @@
                       },
                       "text" : {
                         "type" : "interpolation",
-                        "value" : "<b>Selected supplier</b>"
+                        "value" : "<b>Proveedor seleccionado</b>"
                       },
                       "alignment" : {
                         "type" : "constant",
@@ -1041,6 +1070,35 @@
                       "buttonStyle" : {
                         "type" : "constant",
                         "value" : "primary"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "URL"
+                      },
+                      "pageToken" : {
+                        "type" : "constant"
+                      },
+                      "processName" : {
+                        "type" : "constant"
+                      },
+                      "processVersion" : {
+                        "type" : "constant"
+                      },
+                      "taskId" : {
+                        "type" : "constant"
+                      },
+                      "caseId" : {
+                        "type" : "constant"
+                      },
+                      "target" : {
+                        "type" : "constant",
+                        "value" : "_self"
+                      },
+                      "appToken" : {
+                        "type" : "constant"
+                      },
+                      "urlParams" : {
+                        "type" : "constant"
                       }
                     },
                     "reference" : "4c7431f5-c690-48c0-9a1d-7bc70e0ba5d4",
